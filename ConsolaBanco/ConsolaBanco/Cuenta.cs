@@ -56,8 +56,31 @@ namespace ConsolaBanco
         }
 
 
+        //Método Consultar datos: A través de sus propiedades. 
+        public void Consultar()
+        {
+            Console.Clear();
+            Console.WriteLine("El Saldo es:");
+            Console.ReadLine();
+        }
+
+        //Método  Depositar: Incrementa el saldo con la cantidad de dinero que se deposita.
+
+        public Depositar()
+        {
+
+        }
 
 
 
+
+
+
+
+        //Médoto  Retirar: Antes de hacer el retiro, se debe verificar la suficiencia de saldo y en caso de aprobarlo, se disminuye el saldo.
+        public Retirar()
+        {
+
+        }
     }
 }
