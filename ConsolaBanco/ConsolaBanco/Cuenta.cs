@@ -23,16 +23,7 @@ namespace ConsolaBanco
 
         }
 
-        //sobrecarga de constructor con parámetros que sobrecarga al anterior
-        //tantos constructores como propiedades
-        //crea el objeto libro pero con valores que les pasamos con argumento del constructor
-
-        public Cuenta(int NumCuenta, string NombreCliente, decimal Saldo)
-        {
-            this.NumCuenta = NumCuenta; //this es otra manera de invocar al propio objeto que se acaba de instanciar
-            this.NombreCliente = NombreCliente;
-            this.Saldo = Saldo;
-        }
+       
         //get y set son propiedades para cada uno de los campos que invocamos
         //get es la propiedad de lectura y set la de escritura
         //propiedades públicas para poder llamarlas desde cualquier parte del proyecto
@@ -59,28 +50,10 @@ namespace ConsolaBanco
         //Método Consultar datos: A través de sus propiedades. 
         public void Consultar()
         {
-            Console.Clear();
-            Console.WriteLine("El Saldo es:");
-            Console.ReadLine();
+            Console.WriteLine("El Saldo total es:"+ CSaldo);
+           
         }
 
-        //Método  Depositar: Incrementa el saldo con la cantidad de dinero que se deposita.
-
-        public Depositar()
-        {
-
-        }
-
-
-
-
-
-
-
-        //Médoto  Retirar: Antes de hacer el retiro, se debe verificar la suficiencia de saldo y en caso de aprobarlo, se disminuye el saldo.
-        public Retirar()
-        {
-
-        }
+       
     }
 }

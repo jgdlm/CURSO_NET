@@ -1,0 +1,7 @@
+C:\Users\Tarde\source\repos\jgdlm\CURSO_NET\ConsolaBanco\ConsolaBanco\bin\Debug\ConsolaBanco.exe.config
+C:\Users\Tarde\source\repos\jgdlm\CURSO_NET\ConsolaBanco\ConsolaBanco\bin\Debug\ConsolaBanco.exe
+C:\Users\Tarde\source\repos\jgdlm\CURSO_NET\ConsolaBanco\ConsolaBanco\bin\Debug\ConsolaBanco.pdb
+C:\Users\Tarde\source\repos\jgdlm\CURSO_NET\ConsolaBanco\ConsolaBanco\obj\Debug\ConsolaBanco.csproj.AssemblyReference.cache
+C:\Users\Tarde\source\repos\jgdlm\CURSO_NET\ConsolaBanco\ConsolaBanco\obj\Debug\ConsolaBanco.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\source\repos\jgdlm\CURSO_NET\ConsolaBanco\ConsolaBanco\obj\Debug\ConsolaBanco.exe
+C:\Users\Tarde\source\repos\jgdlm\CURSO_NET\ConsolaBanco\ConsolaBanco\obj\Debug\ConsolaBanco.pdb
