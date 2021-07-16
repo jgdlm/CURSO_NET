@@ -10,6 +10,7 @@ namespace ConsolaBanco
     { 
         //Ejercicio para gestionar las cuentas de un banco
         //Se pide crear una clase tipo cuenta para gestionar ingresos y gastos
+        //DEDE
         static void Main(string[] args)
         {
         }
