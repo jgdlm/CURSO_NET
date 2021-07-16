@@ -23,6 +23,39 @@ namespace ConsolaBanco
 
         }
 
+        //sobrecarga de constructor con parámetros que sobrecarga al anterior
+        //tantos constructores como propiedades
+        //crea el objeto libro pero con valores que les pasamos con argumento del constructor
+
+        public Cuenta(int NumCuenta, string NombreCliente, decimal Saldo)
+        {
+            this.NumCuenta = NumCuenta; //this es otra manera de invocar al propio objeto que se acaba de instanciar
+            this.NombreCliente = NombreCliente;
+            this.Saldo = Saldo;
+        }
+        //get y set son propiedades para cada uno de los campos que invocamos
+        //get es la propiedad de lectura y set la de escritura
+        //propiedades públicas para poder llamarlas desde cualquier parte del proyecto
+
+        public int CNumCuenta
+        {
+            get { return NumCuenta; }
+            set { NumCuenta = value; }
+        }
+
+        public string CNombreCliente
+        {
+            get { return NombreCliente; }
+            set { NombreCliente = value; }
+        }
+
+        public decimal CSaldo
+        {
+            get { return Saldo; }
+            set { Saldo = value; }
+        }
+
+
 
 
 
