@@ -7,6 +7,6 @@ using System.Threading.Tasks;
 namespace ConsolaZoo
 {
     class Animal
-    {
+    { //Creamos la clase Animal
     }
 }
