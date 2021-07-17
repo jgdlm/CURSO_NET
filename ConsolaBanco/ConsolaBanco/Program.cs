@@ -57,7 +57,7 @@ namespace ConsolaBanco
                         }
                         else 
                         {
-                            Console.WriteLine((MiCuenta.CSaldo)- C2);
+                            Console.WriteLine((MiCuenta.CSaldo) - C2);
                         }
                         break;
 
