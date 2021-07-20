@@ -1,0 +1,7 @@
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\Consola Gestion de un zoologico\Consola Gestion de un zoologico\bin\Debug\Consola Gestion de un zoologico.exe.config
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\Consola Gestion de un zoologico\Consola Gestion de un zoologico\bin\Debug\Consola Gestion de un zoologico.exe
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\Consola Gestion de un zoologico\Consola Gestion de un zoologico\bin\Debug\Consola Gestion de un zoologico.pdb
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\Consola Gestion de un zoologico\Consola Gestion de un zoologico\obj\Debug\Consola Gestion de un zoologico.csproj.AssemblyReference.cache
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\Consola Gestion de un zoologico\Consola Gestion de un zoologico\obj\Debug\Consola Gestion de un zoologico.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\Consola Gestion de un zoologico\Consola Gestion de un zoologico\obj\Debug\Consola Gestion de un zoologico.exe
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\Consola Gestion de un zoologico\Consola Gestion de un zoologico\obj\Debug\Consola Gestion de un zoologico.pdb
