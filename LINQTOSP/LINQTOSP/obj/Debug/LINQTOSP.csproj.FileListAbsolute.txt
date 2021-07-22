@@ -1,0 +1,10 @@
+C:\Users\Tarde\Desktop\CURSO_NET\LINQTOSP\LINQTOSP\bin\Debug\LINQTOSP.exe.config
+C:\Users\Tarde\Desktop\CURSO_NET\LINQTOSP\LINQTOSP\bin\Debug\LINQTOSP.exe
+C:\Users\Tarde\Desktop\CURSO_NET\LINQTOSP\LINQTOSP\bin\Debug\LINQTOSP.pdb
+C:\Users\Tarde\Desktop\CURSO_NET\LINQTOSP\LINQTOSP\obj\Debug\LINQTOSP.csproj.AssemblyReference.cache
+C:\Users\Tarde\Desktop\CURSO_NET\LINQTOSP\LINQTOSP\obj\Debug\LINQTOSP.Form1.resources
+C:\Users\Tarde\Desktop\CURSO_NET\LINQTOSP\LINQTOSP\obj\Debug\LINQTOSP.Properties.Resources.resources
+C:\Users\Tarde\Desktop\CURSO_NET\LINQTOSP\LINQTOSP\obj\Debug\LINQTOSP.csproj.GenerateResource.cache
+C:\Users\Tarde\Desktop\CURSO_NET\LINQTOSP\LINQTOSP\obj\Debug\LINQTOSP.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Desktop\CURSO_NET\LINQTOSP\LINQTOSP\obj\Debug\LINQTOSP.exe
+C:\Users\Tarde\Desktop\CURSO_NET\LINQTOSP\LINQTOSP\obj\Debug\LINQTOSP.pdb

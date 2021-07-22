@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="LINQSQL" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ASATA407\SQLEXPRESSJORGE;Initial Catalog=LINQSQL;Persist Security Info=True;User ID=sa" SettingsObjectName="LINQTOSP.Properties.Settings" SettingsPropertyName="LINQSQLConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.Buscarcliente" Method="Buscarcliente">
+    <Parameter Name="Nombre" Parameter="nombre" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="BuscarclienteResult">
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellido1" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellido2" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Telefono" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Modificarcliente" Method="Modificarcliente">
+    <Parameter Name="Nombre" Parameter="nombre" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Apellido1" Parameter="apellido1" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Apellido2" Parameter="apellido2" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="telefono" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.EliminarCliente" Method="EliminarCliente">
+    <Parameter Name="Nombre" Parameter="nombre" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.insertarcliente" Method="insertarcliente">
+    <Parameter Name="Nombre" Parameter="nombre" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Apellido1" Parameter="apellido1" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Apellido2" Parameter="apellido2" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="telefono" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.ListarClientes" Method="ListarClientes">
+    <ElementType Name="ListarClientesResult">
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellido1" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellido2" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Telefono" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>
