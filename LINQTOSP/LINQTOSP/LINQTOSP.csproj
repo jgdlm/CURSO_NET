@@ -98,6 +98,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Script sql\Script Programa CLientes%28LINQSQL%29.sql" />
+    <Content Include="Script sql\SQL AGREGARCLIENTE.sql" />
+    <Content Include="Script sql\SQL BuscarCliente.sql" />
+    <Content Include="Script sql\SQL EliminarCliente.sql" />
+    <Content Include="Script sql\SQL ListarClientes.sql" />
+    <Content Include="Script sql\SQLModificarCliente.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
