@@ -12,7 +12,9 @@ namespace LINQTOSP
 {
     public partial class Form1 : Form
     {
+        //Creo el objeto de la base de Datos para acceder SQL
         DataClasses1DataContext CLienteLinq = new DataClasses1DataContext();
+
         public Form1()
         {
             InitializeComponent();

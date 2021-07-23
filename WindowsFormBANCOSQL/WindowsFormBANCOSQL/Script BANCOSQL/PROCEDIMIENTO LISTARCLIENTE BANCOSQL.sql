@@ -1,0 +1,6 @@
+CREATE PROCEDURE ListarClientes
+AS
+SELECT * 
+FROM CLIENTE;
+
+EXEC ListarClientes

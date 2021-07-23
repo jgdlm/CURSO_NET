@@ -63,6 +63,10 @@ namespace WindowsFormBANCOSQL
             // 
             this.comboBoxBuscar.ForeColor = System.Drawing.Color.MidnightBlue;
             this.comboBoxBuscar.FormattingEnabled = true;
+            this.comboBoxBuscar.Items.AddRange(new object[] {
+            "IDCLIENTE",
+            "APELLIDOS",
+            "NOMBRES"});
             this.comboBoxBuscar.Location = new System.Drawing.Point(12, 166);
             this.comboBoxBuscar.Name = "comboBoxBuscar";
             this.comboBoxBuscar.Size = new System.Drawing.Size(195, 27);
@@ -97,6 +101,7 @@ namespace WindowsFormBANCOSQL
             this.BtnAgregar.TabIndex = 5;
             this.BtnAgregar.Text = "AGREGAR";
             this.BtnAgregar.UseVisualStyleBackColor = false;
+            this.BtnAgregar.Click += new System.EventHandler(this.BtnAgregar_Click);
             // 
             // BtnEliminar
             // 
@@ -108,6 +113,7 @@ namespace WindowsFormBANCOSQL
             this.BtnEliminar.TabIndex = 6;
             this.BtnEliminar.Text = "ELIMINAR";
             this.BtnEliminar.UseVisualStyleBackColor = false;
+            this.BtnEliminar.Click += new System.EventHandler(this.BtnEliminar_Click);
             // 
             // BtnModificar
             // 
@@ -119,6 +125,7 @@ namespace WindowsFormBANCOSQL
             this.BtnModificar.TabIndex = 7;
             this.BtnModificar.Text = "MODIFICAR";
             this.BtnModificar.UseVisualStyleBackColor = false;
+            this.BtnModificar.Click += new System.EventHandler(this.BtnModificar_Click);
             // 
             // TxtIdCliente
             // 
@@ -200,6 +207,7 @@ namespace WindowsFormBANCOSQL
             this.BtnSalir.TabIndex = 16;
             this.BtnSalir.Text = "SALIR";
             this.BtnSalir.UseVisualStyleBackColor = false;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // label4
             // 
@@ -210,6 +218,7 @@ namespace WindowsFormBANCOSQL
             this.label4.Size = new System.Drawing.Size(20, 19);
             this.label4.TabIndex = 17;
             this.label4.Text = "X";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // Form1
             // 
@@ -235,7 +244,7 @@ namespace WindowsFormBANCOSQL
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.Orange;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "BANCOSQL";
             this.Load += new System.EventHandler(this.Form1_Load);

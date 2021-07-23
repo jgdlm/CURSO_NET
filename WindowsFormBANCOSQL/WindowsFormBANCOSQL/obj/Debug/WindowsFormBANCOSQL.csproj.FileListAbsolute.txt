@@ -8,3 +8,12 @@ C:\Users\ADMIN\Desktop\CURSO_NET\WindowsFormBANCOSQL\WindowsFormBANCOSQL\obj\Deb
 C:\Users\ADMIN\Desktop\CURSO_NET\WindowsFormBANCOSQL\WindowsFormBANCOSQL\obj\Debug\WindowsFormBANCOSQL.csproj.CoreCompileInputs.cache
 C:\Users\ADMIN\Desktop\CURSO_NET\WindowsFormBANCOSQL\WindowsFormBANCOSQL\obj\Debug\WindowsFormBANCOSQL.exe
 C:\Users\ADMIN\Desktop\CURSO_NET\WindowsFormBANCOSQL\WindowsFormBANCOSQL\obj\Debug\WindowsFormBANCOSQL.pdb
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormBANCOSQL\WindowsFormBANCOSQL\bin\Debug\WindowsFormBANCOSQL.exe.config
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormBANCOSQL\WindowsFormBANCOSQL\bin\Debug\WindowsFormBANCOSQL.exe
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormBANCOSQL\WindowsFormBANCOSQL\bin\Debug\WindowsFormBANCOSQL.pdb
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormBANCOSQL\WindowsFormBANCOSQL\obj\Debug\WindowsFormBANCOSQL.Form1.resources
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormBANCOSQL\WindowsFormBANCOSQL\obj\Debug\WindowsFormBANCOSQL.Properties.Resources.resources
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormBANCOSQL\WindowsFormBANCOSQL\obj\Debug\WindowsFormBANCOSQL.csproj.GenerateResource.cache
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormBANCOSQL\WindowsFormBANCOSQL\obj\Debug\WindowsFormBANCOSQL.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormBANCOSQL\WindowsFormBANCOSQL\obj\Debug\WindowsFormBANCOSQL.exe
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormBANCOSQL\WindowsFormBANCOSQL\obj\Debug\WindowsFormBANCOSQL.pdb
