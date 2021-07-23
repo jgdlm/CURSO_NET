@@ -1,0 +1,36 @@
+﻿<Window x:Class="WPFInyecciónSQL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFInyecciónSQL"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="686.649" Width="1207.084">
+    <Grid Margin="0,0,37,12">
+        <StackPanel HorizontalAlignment="Left" Height="577" Margin="28,44,0,15" VerticalAlignment="Top" Width="187" Background="#FFE8E6E6">
+            <Label Content="INSERTAR" FontWeight="Bold" FontSize="20" Margin="32,0,34,0"/>
+            <TextBox x:Name="TxtID" Height="35" TextWrapping="Wrap" Margin="12,0,9,15" IsEnabled="False"/>
+            <TextBox x:Name="TxtNombre" Height="35" TextWrapping="Wrap" Margin="12,0,9,15" IsEnabled="False"/>
+            <TextBox x:Name="TxtEdad" Height="35" TextWrapping="Wrap" Margin="12,0,9,0" IsEnabled="False"/>
+            <Button x:Name="BtnInsertar" Content="Botón Insertar" Margin="12,15,9,0" Height="39" Background="#FFECBB17" FontSize="20" Foreground="White" Click="BtnInsertar_Click"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="577" Margin="240,44,0,0" VerticalAlignment="Top" Width="213" Background="#FFE8E6E6">
+            <Label Content="ELIMINAR" FontWeight="Bold" FontSize="20" Margin="42,0,34,0"/>
+            <TextBox x:Name="TxtID1" Height="35" TextWrapping="Wrap" Margin="12,0,9,15" IsEnabled="False"/>
+            <Label Content="Nombre" FontWeight="Bold" FontSize="20" Margin="42,0,34,15" Foreground="#FFF7F9FB" Background="#FF2872F3"/>
+            <Label Content="Edad" FontWeight="Bold" FontSize="20" Margin="42,0,34,0" Foreground="#FFF7F9FB" Background="#FF2872F3"/>
+            <Button x:Name="BtnConsulta" Content="Consulta" Margin="12,15,92,0" Height="39" Background="#FFECBB17" FontSize="20" Foreground="White"/>
+            <Button x:Name="BtnEliminar" Content="Eliminar" Margin="14,15,90,0" Height="39" Background="#FFECBB17" FontSize="20" Foreground="White"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="577" Margin="477,44,0,0" VerticalAlignment="Top" Width="212" Background="#FFE8E6E6">
+            <Label Content="MODIFICAR" FontWeight="Bold" FontSize="20" Margin="29,0,30,0"/>
+            <TextBox x:Name="TxtID2" Height="35" TextWrapping="Wrap" Margin="6,0,3,15" IsEnabled="False"/>
+            <Button x:Name="BtnBusca" Content="Busca" Margin="55,15,48,15" Height="39" Background="#FFECBB17" FontSize="20" Foreground="White"/>
+            <TextBox x:Name="TxtNombre1" Height="35" TextWrapping="Wrap" Margin="6,0,3,15" IsEnabled="False"/>
+            <TextBox x:Name="TxtEdad1" Height="35" TextWrapping="Wrap" Margin="6,0,3,15" IsEnabled="False"/>
+            <Button x:Name="BtnModifica" Content="Modifica" Margin="55,15,48,15" Height="39" Background="#FFECBB17" FontSize="20" Foreground="White"/>
+        </StackPanel>
+        <DataGrid x:Name="DataGridDatos" HorizontalAlignment="Left" Height="566" Margin="705,55,0,0" VerticalAlignment="Top" Width="456" Background="#FFEAEAEA"/>
+
+    </Grid>
+</Window>

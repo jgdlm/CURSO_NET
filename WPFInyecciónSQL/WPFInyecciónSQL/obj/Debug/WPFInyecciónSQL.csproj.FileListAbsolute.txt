@@ -1,0 +1,15 @@
+C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\WPFInyecciónSQL.csproj.AssemblyReference.cache
+C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\MainWindow.g.cs
+C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\App.g.cs
+C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\WPFInyecciónSQL_MarkupCompile.cache
+C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\WPFInyecciónSQL_MarkupCompile.lref
+C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\bin\Debug\WPFInyecciónSQL.exe.config
+C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\bin\Debug\WPFInyecciónSQL.exe
+C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\bin\Debug\WPFInyecciónSQL.pdb
+C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\MainWindow.baml
+C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\WPFInyecciónSQL.g.resources
+C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\WPFInyecciónSQL.Properties.Resources.resources
+C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\WPFInyecciónSQL.csproj.GenerateResource.cache
+C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\WPFInyecciónSQL.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\WPFInyecciónSQL.exe
+C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\WPFInyecciónSQL.pdb
