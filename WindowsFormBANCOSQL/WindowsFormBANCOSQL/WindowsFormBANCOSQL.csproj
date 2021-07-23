@@ -99,6 +99,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Script BANCOSQL\CONSULTAS BANCOSQL.sql" />
+    <Content Include="Script BANCOSQL\EXEC MODIFICAR CLIENTE.sql" />
+    <Content Include="Script BANCOSQL\modificar cliente bancosql.sql" />
     <Content Include="Script BANCOSQL\PROCEDIMIENTO AÑADIR CLIENTES BANCOSQL.sql" />
     <Content Include="Script BANCOSQL\PROCEDIMIENTO BUSCAR CLIENTE BANCOSQL.sql" />
     <Content Include="Script BANCOSQL\PROCEDIMIENTO ELIMINAR UN CLIENTE BANCOSQL.sql" />
