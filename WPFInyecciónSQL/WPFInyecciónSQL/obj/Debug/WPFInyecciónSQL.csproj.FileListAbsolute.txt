@@ -12,3 +12,5 @@ C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\WPF
 C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\WPFInyecciónSQL.csproj.CoreCompileInputs.cache
 C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\WPFInyecciónSQL.exe
 C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\WPFInyecciónSQL.pdb
+C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\WPFInyecciónSQL.csproj.AssemblyReference.cache
+C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\WPFInyecciónSQL_Content.g.cs
