@@ -21,6 +21,7 @@ namespace WPFInyecciónSQL
     /// </summary>
     public partial class MainWindow : Window
     {
+        //Defines la conexión a la base de datos sql server
         private SqlConnection conexion = new SqlConnection("server = ASATA407\\SQLEXPRESSJORGE; Initial Catalog = INYECCIONSQL; Persist Security Info=true;Pwd=1234;User ID = sa");
         public MainWindow()
         {
