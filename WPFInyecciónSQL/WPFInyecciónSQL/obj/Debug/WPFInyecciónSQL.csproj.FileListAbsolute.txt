@@ -1,4 +1,3 @@
-C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\WPFInyecciónSQL.csproj.AssemblyReference.cache
 C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\MainWindow.g.cs
 C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\App.g.cs
 C:\Users\Tarde\Desktop\CURSO_NET\WPFInyecciónSQL\WPFInyecciónSQL\obj\Debug\WPFInyecciónSQL_MarkupCompile.cache
