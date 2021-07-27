@@ -1,0 +1,9 @@
+--PROCEDIMIENTO ALMACENADO BUSCA POR CÓDIGO DE ALUMNO
+ALTER PROCEDURE buscaCodigo
+@Código int
+AS
+SELECT *
+FROM Alumno
+WHERE @Código = Código;
+
+EXEC buscaCodigo 12;

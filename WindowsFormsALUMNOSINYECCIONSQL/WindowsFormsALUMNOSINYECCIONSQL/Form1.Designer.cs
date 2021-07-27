@@ -56,12 +56,6 @@ namespace WindowsFormsALUMNOSINYECCIONSQL
             this.BtnAlta = new System.Windows.Forms.Button();
             this.Btnbaja = new System.Windows.Forms.Button();
             this.BtnModificacion = new System.Windows.Forms.Button();
-            this.ColCodigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColDNI = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColEspecialidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColTurno = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColRepite = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.GridDatos)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -201,8 +195,8 @@ namespace WindowsFormsALUMNOSINYECCIONSQL
             this.comboBoxModulo.FormattingEnabled = true;
             this.comboBoxModulo.Items.AddRange(new object[] {
             "Todos",
-            "Aplicaciones Infromaticas",
-            "Desarrollo web"});
+            "DAM",
+            "DAW"});
             this.comboBoxModulo.Location = new System.Drawing.Point(360, 134);
             this.comboBoxModulo.Name = "comboBoxModulo";
             this.comboBoxModulo.Size = new System.Drawing.Size(173, 21);
@@ -212,14 +206,7 @@ namespace WindowsFormsALUMNOSINYECCIONSQL
             // 
             this.GridDatos.BackgroundColor = System.Drawing.Color.White;
             this.GridDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.GridDatos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ColCodigo,
-            this.ColNombre,
-            this.ColDNI,
-            this.ColEspecialidad,
-            this.ColTurno,
-            this.ColRepite});
-            this.GridDatos.Location = new System.Drawing.Point(22, 207);
+            this.GridDatos.Location = new System.Drawing.Point(36, 205);
             this.GridDatos.Name = "GridDatos";
             this.GridDatos.Size = new System.Drawing.Size(853, 150);
             this.GridDatos.TabIndex = 14;
@@ -257,6 +244,7 @@ namespace WindowsFormsALUMNOSINYECCIONSQL
             this.groupBox1.Size = new System.Drawing.Size(203, 100);
             this.groupBox1.TabIndex = 17;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Busqueda";
             // 
             // BtnDNI
             // 
@@ -266,6 +254,7 @@ namespace WindowsFormsALUMNOSINYECCIONSQL
             this.BtnDNI.Size = new System.Drawing.Size(48, 23);
             this.BtnDNI.TabIndex = 21;
             this.BtnDNI.UseVisualStyleBackColor = false;
+            this.BtnDNI.Click += new System.EventHandler(this.BtnDNI_Click);
             // 
             // BtnCodigo
             // 
@@ -275,6 +264,7 @@ namespace WindowsFormsALUMNOSINYECCIONSQL
             this.BtnCodigo.Size = new System.Drawing.Size(48, 23);
             this.BtnCodigo.TabIndex = 20;
             this.BtnCodigo.UseVisualStyleBackColor = false;
+            this.BtnCodigo.Click += new System.EventHandler(this.BtnCodigo_Click);
             // 
             // TextDNI
             // 
@@ -318,6 +308,7 @@ namespace WindowsFormsALUMNOSINYECCIONSQL
             this.BtnAlta.TabIndex = 18;
             this.BtnAlta.Text = "Alta";
             this.BtnAlta.UseVisualStyleBackColor = true;
+            this.BtnAlta.Click += new System.EventHandler(this.BtnAlta_Click);
             // 
             // Btnbaja
             // 
@@ -327,6 +318,7 @@ namespace WindowsFormsALUMNOSINYECCIONSQL
             this.Btnbaja.TabIndex = 19;
             this.Btnbaja.Text = "Baja";
             this.Btnbaja.UseVisualStyleBackColor = true;
+            this.Btnbaja.Click += new System.EventHandler(this.Btnbaja_Click);
             // 
             // BtnModificacion
             // 
@@ -336,36 +328,7 @@ namespace WindowsFormsALUMNOSINYECCIONSQL
             this.BtnModificacion.TabIndex = 20;
             this.BtnModificacion.Text = "Modificación";
             this.BtnModificacion.UseVisualStyleBackColor = true;
-            // 
-            // ColCodigo
-            // 
-            this.ColCodigo.HeaderText = "Código";
-            this.ColCodigo.Name = "ColCodigo";
-            // 
-            // ColNombre
-            // 
-            this.ColNombre.HeaderText = "Nombre";
-            this.ColNombre.Name = "ColNombre";
-            // 
-            // ColDNI
-            // 
-            this.ColDNI.HeaderText = "DNI";
-            this.ColDNI.Name = "ColDNI";
-            // 
-            // ColEspecialidad
-            // 
-            this.ColEspecialidad.HeaderText = "Especialidad";
-            this.ColEspecialidad.Name = "ColEspecialidad";
-            // 
-            // ColTurno
-            // 
-            this.ColTurno.HeaderText = "Turno";
-            this.ColTurno.Name = "ColTurno";
-            // 
-            // ColRepite
-            // 
-            this.ColRepite.HeaderText = "Repite";
-            this.ColRepite.Name = "ColRepite";
+            this.BtnModificacion.Click += new System.EventHandler(this.BtnModificacion_Click);
             // 
             // Form1
             // 
@@ -397,6 +360,7 @@ namespace WindowsFormsALUMNOSINYECCIONSQL
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Form1";
             this.Text = "Listado de Alumnos";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.GridDatos)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -434,12 +398,6 @@ namespace WindowsFormsALUMNOSINYECCIONSQL
         private System.Windows.Forms.Button BtnAlta;
         private System.Windows.Forms.Button Btnbaja;
         private System.Windows.Forms.Button BtnModificacion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColCodigo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColNombre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColDNI;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColEspecialidad;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColTurno;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColRepite;
     }
 }
 

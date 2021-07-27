@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ALUMNOSSQL" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ASATA407\SQLEXPRESSJORGE;Initial Catalog=ALUMNOSSQL;Persist Security Info=True;User ID=sa" SettingsObjectName="WindowsFormsALUMNOSINYECCIONSQL.Properties.Settings" SettingsPropertyName="ALUMNOSSQLConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.ListarAlumnos" Method="ListarAlumnos">
+    <ElementType Name="ListarAlumnosResult">
+      <Column Name="Código" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="DNI" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Turno" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Sexo" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Repetidor" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Modulo" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Especialidad" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.buscaCodigo" Method="buscaCodigo">
+    <Parameter Name="Código" Parameter="código" Type="System.Int32" DbType="Int" />
+    <ElementType Name="buscaCodigoResult">
+      <Column Name="Código" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="DNI" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Turno" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Sexo" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Repetidor" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Modulo" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Especialidad" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.buscaDni" Method="buscaDni">
+    <Parameter Name="DNI" Parameter="dNI" Type="System.String" DbType="NVarChar(10)" />
+    <ElementType Name="buscaDniResult">
+      <Column Name="Código" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="DNI" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Turno" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Sexo" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Repetidor" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Modulo" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Especialidad" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>
