@@ -47,15 +47,21 @@ namespace WindowsFormsALUMNOSINYECCIONSQL
             this.label8 = new System.Windows.Forms.Label();
             this.checkBoxRepetidor = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.TxtCodigo = new System.Windows.Forms.TextBox();
-            this.TextDNI = new System.Windows.Forms.TextBox();
-            this.BtnCodigo = new System.Windows.Forms.Button();
             this.BtnDNI = new System.Windows.Forms.Button();
+            this.BtnCodigo = new System.Windows.Forms.Button();
+            this.TextDNI = new System.Windows.Forms.TextBox();
+            this.TxtCodigo = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.BtnAlta = new System.Windows.Forms.Button();
             this.Btnbaja = new System.Windows.Forms.Button();
             this.BtnModificacion = new System.Windows.Forms.Button();
+            this.ColCodigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColDNI = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColEspecialidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColTurno = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColRepite = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.GridDatos)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -172,8 +178,9 @@ namespace WindowsFormsALUMNOSINYECCIONSQL
             this.comboBoxEspecialidad.FormattingEnabled = true;
             this.comboBoxEspecialidad.Items.AddRange(new object[] {
             "Todos",
-            "Ciencias Sociales",
-            "Tecnologico"});
+            "COMPUTACIÓN E INFORMÁTICA",
+            "CIENCIAS SOCIALES",
+            "TECNOLOGIA"});
             this.comboBoxEspecialidad.Location = new System.Drawing.Point(104, 131);
             this.comboBoxEspecialidad.Name = "comboBoxEspecialidad";
             this.comboBoxEspecialidad.Size = new System.Drawing.Size(173, 21);
@@ -205,7 +212,14 @@ namespace WindowsFormsALUMNOSINYECCIONSQL
             // 
             this.GridDatos.BackgroundColor = System.Drawing.Color.White;
             this.GridDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.GridDatos.Location = new System.Drawing.Point(22, 206);
+            this.GridDatos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ColCodigo,
+            this.ColNombre,
+            this.ColDNI,
+            this.ColEspecialidad,
+            this.ColTurno,
+            this.ColRepite});
+            this.GridDatos.Location = new System.Drawing.Point(22, 207);
             this.GridDatos.Name = "GridDatos";
             this.GridDatos.Size = new System.Drawing.Size(853, 150);
             this.GridDatos.TabIndex = 14;
@@ -244,15 +258,37 @@ namespace WindowsFormsALUMNOSINYECCIONSQL
             this.groupBox1.TabIndex = 17;
             this.groupBox1.TabStop = false;
             // 
-            // label9
+            // BtnDNI
             // 
-            this.label9.AutoSize = true;
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(16, 20);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(46, 13);
-            this.label9.TabIndex = 16;
-            this.label9.Text = "Código";
+            this.BtnDNI.BackColor = System.Drawing.Color.DarkGray;
+            this.BtnDNI.Location = new System.Drawing.Point(132, 51);
+            this.BtnDNI.Name = "BtnDNI";
+            this.BtnDNI.Size = new System.Drawing.Size(48, 23);
+            this.BtnDNI.TabIndex = 21;
+            this.BtnDNI.UseVisualStyleBackColor = false;
+            // 
+            // BtnCodigo
+            // 
+            this.BtnCodigo.BackColor = System.Drawing.Color.DarkGray;
+            this.BtnCodigo.Location = new System.Drawing.Point(132, 15);
+            this.BtnCodigo.Name = "BtnCodigo";
+            this.BtnCodigo.Size = new System.Drawing.Size(48, 23);
+            this.BtnCodigo.TabIndex = 20;
+            this.BtnCodigo.UseVisualStyleBackColor = false;
+            // 
+            // TextDNI
+            // 
+            this.TextDNI.Location = new System.Drawing.Point(68, 56);
+            this.TextDNI.Name = "TextDNI";
+            this.TextDNI.Size = new System.Drawing.Size(48, 20);
+            this.TextDNI.TabIndex = 19;
+            // 
+            // TxtCodigo
+            // 
+            this.TxtCodigo.Location = new System.Drawing.Point(68, 20);
+            this.TxtCodigo.Name = "TxtCodigo";
+            this.TxtCodigo.Size = new System.Drawing.Size(48, 20);
+            this.TxtCodigo.TabIndex = 18;
             // 
             // label10
             // 
@@ -264,37 +300,15 @@ namespace WindowsFormsALUMNOSINYECCIONSQL
             this.label10.TabIndex = 17;
             this.label10.Text = "DNI";
             // 
-            // TxtCodigo
+            // label9
             // 
-            this.TxtCodigo.Location = new System.Drawing.Point(68, 20);
-            this.TxtCodigo.Name = "TxtCodigo";
-            this.TxtCodigo.Size = new System.Drawing.Size(48, 20);
-            this.TxtCodigo.TabIndex = 18;
-            // 
-            // TextDNI
-            // 
-            this.TextDNI.Location = new System.Drawing.Point(68, 56);
-            this.TextDNI.Name = "TextDNI";
-            this.TextDNI.Size = new System.Drawing.Size(48, 20);
-            this.TextDNI.TabIndex = 19;
-            // 
-            // BtnCodigo
-            // 
-            this.BtnCodigo.BackColor = System.Drawing.Color.DarkGray;
-            this.BtnCodigo.Location = new System.Drawing.Point(132, 15);
-            this.BtnCodigo.Name = "BtnCodigo";
-            this.BtnCodigo.Size = new System.Drawing.Size(48, 23);
-            this.BtnCodigo.TabIndex = 20;
-            this.BtnCodigo.UseVisualStyleBackColor = false;
-            // 
-            // BtnDNI
-            // 
-            this.BtnDNI.BackColor = System.Drawing.Color.DarkGray;
-            this.BtnDNI.Location = new System.Drawing.Point(132, 51);
-            this.BtnDNI.Name = "BtnDNI";
-            this.BtnDNI.Size = new System.Drawing.Size(48, 23);
-            this.BtnDNI.TabIndex = 21;
-            this.BtnDNI.UseVisualStyleBackColor = false;
+            this.label9.AutoSize = true;
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(16, 20);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(46, 13);
+            this.label9.TabIndex = 16;
+            this.label9.Text = "Código";
             // 
             // BtnAlta
             // 
@@ -322,6 +336,36 @@ namespace WindowsFormsALUMNOSINYECCIONSQL
             this.BtnModificacion.TabIndex = 20;
             this.BtnModificacion.Text = "Modificación";
             this.BtnModificacion.UseVisualStyleBackColor = true;
+            // 
+            // ColCodigo
+            // 
+            this.ColCodigo.HeaderText = "Código";
+            this.ColCodigo.Name = "ColCodigo";
+            // 
+            // ColNombre
+            // 
+            this.ColNombre.HeaderText = "Nombre";
+            this.ColNombre.Name = "ColNombre";
+            // 
+            // ColDNI
+            // 
+            this.ColDNI.HeaderText = "DNI";
+            this.ColDNI.Name = "ColDNI";
+            // 
+            // ColEspecialidad
+            // 
+            this.ColEspecialidad.HeaderText = "Especialidad";
+            this.ColEspecialidad.Name = "ColEspecialidad";
+            // 
+            // ColTurno
+            // 
+            this.ColTurno.HeaderText = "Turno";
+            this.ColTurno.Name = "ColTurno";
+            // 
+            // ColRepite
+            // 
+            this.ColRepite.HeaderText = "Repite";
+            this.ColRepite.Name = "ColRepite";
             // 
             // Form1
             // 
@@ -390,6 +434,12 @@ namespace WindowsFormsALUMNOSINYECCIONSQL
         private System.Windows.Forms.Button BtnAlta;
         private System.Windows.Forms.Button Btnbaja;
         private System.Windows.Forms.Button BtnModificacion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColCodigo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColNombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColDNI;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColEspecialidad;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColTurno;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColRepite;
     }
 }
 
