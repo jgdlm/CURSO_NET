@@ -128,20 +128,21 @@ namespace WindowsFormsALUMNOSINYECCIONSQL
             {
                 repetidor = 0;
             }
-            string cadena = "update Persona set DNI='" + dni + "',Nombre='" + nombre + "',Turno='" + turno + "',Sexo='" + sexo + "',Especialidad='" + especialidad + "',Modulo='" + modulo + "',Repetidor" + repetidor + ",";
+            string cadena = "update Alumno set Nombre='" + nombre + "',Turno='" + turno + "',Sexo='" + sexo + "',Especialidad='" + especialidad + "',Modulo='" + modulo + "',Repetidor='" + repetidor + "'where DNI ='" + dni + "'";
             SqlCommand comando = new SqlCommand(cadena, conexion);
             int cant;
             cant = comando.ExecuteNonQuery();
             if (cant == 1)
             {
-                MessageBox.Show("Se modificaron los datos del Alumno");
+               
                 TxtDNI.Text = "";
                 TxtNombre.Text = "";
                 comboBoxTurno.SelectedItem = null;
                 comboBoxSexo.SelectedItem = null;
                 comboBoxEspecialidad.SelectedItem = null;
                 comboBoxModulo.SelectedItem = null;
-              
+
+                MessageBox.Show("Se modificaron los datos del Alumno");
             }
             else
                 MessageBox.Show("No existe El alumno con el DNI ingresado");
