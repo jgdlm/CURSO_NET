@@ -83,8 +83,9 @@ namespace HUCAGESTIONDEENFERMOS
                 BasedeDatosEnfermos.Enfermo.InsertOnSubmit(MiEnfermos);
                 BasedeDatosEnfermos.SubmitChanges();
                 cargarGrid();
-                reset();
                 TxtMuestraMensajes.Text = "EL ENFERMO " + TxtNombreApellidos.Text + " HA SIDO INGRESADO";
+                reset();
+              
             }
             catch
             {
@@ -103,8 +104,8 @@ namespace HUCAGESTIONDEENFERMOS
                 BasedeDatosEnfermos.Enfermo.DeleteOnSubmit(MiEnfermos);
                 BasedeDatosEnfermos.SubmitChanges();
                 cargarGrid();
-                reset();
                 TxtMuestraMensajes.Text = "EL ENFERMO " + TxtInscripcion.Text + " HA SIDO DADO DE BAJA";
+                reset();
             }
             catch
             {
@@ -131,8 +132,8 @@ namespace HUCAGESTIONDEENFERMOS
                 MiEnfermos.Numero_de_la_SS = int.Parse(TxtSSocial.Text);
                 BasedeDatosEnfermos.SubmitChanges();
                 cargarGrid();
-                reset();
                 TxtMuestraMensajes.Text = "EL ENFERMO " + TxtInscripcion.Text + " HA SIDO DADO MODIFICADO SUS DATOS CORRECTAMENTE";
+                reset();
             }
             catch
             {

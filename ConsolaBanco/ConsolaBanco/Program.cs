@@ -13,7 +13,7 @@ namespace ConsolaBanco
         
         static void Main(string[] args)
         {
-            // se cea un onjeto cuenta
+            // se cea un objeto cuenta
             Cuenta MiCuenta = new Cuenta();
 
             string opcion = ""; int C1 = 0; decimal C2= 0;
