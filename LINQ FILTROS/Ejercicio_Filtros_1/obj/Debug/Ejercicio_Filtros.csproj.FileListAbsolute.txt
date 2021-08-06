@@ -1,0 +1,83 @@
+C:\Users\MAÑANA\source\repos\Curso_net_2021\Ejercicio_Filtros\bin\Debug\Ejercicio_Filtros.exe.config
+C:\Users\MAÑANA\source\repos\Curso_net_2021\Ejercicio_Filtros\bin\Debug\Ejercicio_Filtros.exe
+C:\Users\MAÑANA\source\repos\Curso_net_2021\Ejercicio_Filtros\bin\Debug\Ejercicio_Filtros.pdb
+C:\Users\MAÑANA\source\repos\Curso_net_2021\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.csprojAssemblyReference.cache
+C:\Users\MAÑANA\source\repos\Curso_net_2021\Ejercicio_Filtros\obj\Debug\MainWindow.g.cs
+C:\Users\MAÑANA\source\repos\Curso_net_2021\Ejercicio_Filtros\obj\Debug\App.g.cs
+C:\Users\MAÑANA\source\repos\Curso_net_2021\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros_MarkupCompile.cache
+C:\Users\MAÑANA\source\repos\Curso_net_2021\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros_MarkupCompile.lref
+C:\Users\MAÑANA\source\repos\Curso_net_2021\Ejercicio_Filtros\obj\Debug\MainWindow.baml
+C:\Users\MAÑANA\source\repos\Curso_net_2021\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.g.resources
+C:\Users\MAÑANA\source\repos\Curso_net_2021\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.Properties.Resources.resources
+C:\Users\MAÑANA\source\repos\Curso_net_2021\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.csproj.GenerateResource.cache
+C:\Users\MAÑANA\source\repos\Curso_net_2021\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.csproj.CoreCompileInputs.cache
+C:\Users\MAÑANA\source\repos\Curso_net_2021\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.exe
+C:\Users\MAÑANA\source\repos\Curso_net_2021\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.pdb
+C:\Users\MAÑANA\source\repos\Curso_net_2021\Ejercicio_Filtros\bin\Debug\EntityFramework.dll
+C:\Users\MAÑANA\source\repos\Curso_net_2021\Ejercicio_Filtros\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MAÑANA\source\repos\Curso_net_2021\Ejercicio_Filtros\bin\Debug\EntityFramework.xml
+C:\Users\MAÑANA\source\repos\Curso_net_2021\Ejercicio_Filtros\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MAÑANA\source\repos\Curso_net_2021\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.csproj.CopyComplete
+C:\Users\kiker\Desktop\Ejercicio_Filtros\bin\Debug\Ejercicio_Filtros.exe.config
+C:\Users\kiker\Desktop\Ejercicio_Filtros\bin\Debug\Ejercicio_Filtros.exe
+C:\Users\kiker\Desktop\Ejercicio_Filtros\bin\Debug\Ejercicio_Filtros.pdb
+C:\Users\kiker\Desktop\Ejercicio_Filtros\obj\Debug\MainWindow.g.cs
+C:\Users\kiker\Desktop\Ejercicio_Filtros\obj\Debug\App.g.cs
+C:\Users\kiker\Desktop\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros_MarkupCompile.cache
+C:\Users\kiker\Desktop\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros_MarkupCompile.lref
+C:\Users\kiker\Desktop\Ejercicio_Filtros\obj\Debug\MainWindow.baml
+C:\Users\kiker\Desktop\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.g.resources
+C:\Users\kiker\Desktop\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.Properties.Resources.resources
+C:\Users\kiker\Desktop\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.csproj.GenerateResource.cache
+C:\Users\kiker\Desktop\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.csproj.CoreCompileInputs.cache
+C:\Users\kiker\Desktop\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.csproj.CopyComplete
+C:\Users\kiker\Desktop\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.exe
+C:\Users\kiker\Desktop\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.pdb
+C:\Users\kiker\Desktop\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.csprojAssemblyReference.cache
+C:\Users\MAÑANA\Desktop\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.csprojAssemblyReference.cache
+C:\Users\MAÑANA\Desktop\Ejercicio_Filtros\obj\Debug\MainWindow.g.cs
+C:\Users\MAÑANA\Desktop\Ejercicio_Filtros\obj\Debug\App.g.cs
+C:\Users\MAÑANA\Desktop\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros_MarkupCompile.cache
+C:\Users\MAÑANA\Desktop\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros_MarkupCompile.lref
+C:\Users\MAÑANA\Desktop\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.exe
+C:\Users\MAÑANA\Desktop\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.pdb
+C:\Users\MAÑANA\Desktop\Ejercicio_Filtros\bin\Debug\Ejercicio_Filtros.exe.config
+C:\Users\MAÑANA\Desktop\Ejercicio_Filtros\bin\Debug\Ejercicio_Filtros.exe
+C:\Users\MAÑANA\Desktop\Ejercicio_Filtros\bin\Debug\Ejercicio_Filtros.pdb
+C:\Users\MAÑANA\Desktop\Ejercicio_Filtros\obj\Debug\MainWindow.baml
+C:\Users\MAÑANA\Desktop\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.g.resources
+C:\Users\MAÑANA\Desktop\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.Properties.Resources.resources
+C:\Users\MAÑANA\Desktop\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.csproj.GenerateResource.cache
+C:\Users\MAÑANA\Desktop\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.csproj.CoreCompileInputs.cache
+C:\Users\MAÑANA\Desktop\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.csproj.CopyComplete
+C:\Users\kiker\Desktop\ORGANIZAR CURSO\Ejercicio_Filtros\bin\Debug\Ejercicio_Filtros.exe.config
+C:\Users\kiker\Desktop\ORGANIZAR CURSO\Ejercicio_Filtros\bin\Debug\Ejercicio_Filtros.exe
+C:\Users\kiker\Desktop\ORGANIZAR CURSO\Ejercicio_Filtros\bin\Debug\Ejercicio_Filtros.pdb
+C:\Users\kiker\Desktop\ORGANIZAR CURSO\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.csprojAssemblyReference.cache
+C:\Users\kiker\Desktop\ORGANIZAR CURSO\Ejercicio_Filtros\obj\Debug\MainWindow.g.cs
+C:\Users\kiker\Desktop\ORGANIZAR CURSO\Ejercicio_Filtros\obj\Debug\App.g.cs
+C:\Users\kiker\Desktop\ORGANIZAR CURSO\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros_MarkupCompile.cache
+C:\Users\kiker\Desktop\ORGANIZAR CURSO\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros_MarkupCompile.lref
+C:\Users\kiker\Desktop\ORGANIZAR CURSO\Ejercicio_Filtros\obj\Debug\MainWindow.baml
+C:\Users\kiker\Desktop\ORGANIZAR CURSO\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.g.resources
+C:\Users\kiker\Desktop\ORGANIZAR CURSO\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.Properties.Resources.resources
+C:\Users\kiker\Desktop\ORGANIZAR CURSO\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.csproj.GenerateResource.cache
+C:\Users\kiker\Desktop\ORGANIZAR CURSO\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.csproj.CoreCompileInputs.cache
+C:\Users\kiker\Desktop\ORGANIZAR CURSO\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.csproj.CopyComplete
+C:\Users\kiker\Desktop\ORGANIZAR CURSO\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.exe
+C:\Users\kiker\Desktop\ORGANIZAR CURSO\Ejercicio_Filtros\obj\Debug\Ejercicio_Filtros.pdb
+C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\bin\Debug\Ejercicio_Filtros.exe.config
+C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\bin\Debug\Ejercicio_Filtros.exe
+C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\bin\Debug\Ejercicio_Filtros.pdb
+C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\obj\Debug\MainWindow.g.cs
+C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\obj\Debug\App.g.cs
+C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\obj\Debug\Ejercicio_Filtros_MarkupCompile.cache
+C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\obj\Debug\Ejercicio_Filtros_MarkupCompile.lref
+C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\obj\Debug\MainWindow.baml
+C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\obj\Debug\Ejercicio_Filtros.g.resources
+C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\obj\Debug\Ejercicio_Filtros.Properties.Resources.resources
+C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\obj\Debug\Ejercicio_Filtros.csproj.GenerateResource.cache
+C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\obj\Debug\Ejercicio_Filtros.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\obj\Debug\Ejercicio_Filtros.csproj.CopyComplete
+C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\obj\Debug\Ejercicio_Filtros.exe
+C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\obj\Debug\Ejercicio_Filtros.pdb

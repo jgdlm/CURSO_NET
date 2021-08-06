@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FiltrosLINQ" Class="DatosjuevesDataContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ASATA407\SQLEXPRESSJORGE;Initial Catalog=FiltrosLINQ;Persist Security Info=True;User ID=sa" SettingsObjectName="Ejercicio_Filtros.Properties.Settings" SettingsPropertyName="FiltrosLINQConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.datosjueves" Member="datosjueves">
+    <Type Name="datosjueves">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Apellido" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Fecha_Insc" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Fecha_Cont" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Curso" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
