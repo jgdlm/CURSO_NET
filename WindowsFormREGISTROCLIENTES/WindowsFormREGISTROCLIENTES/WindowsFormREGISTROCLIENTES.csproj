@@ -130,6 +130,7 @@
       <DependentUpon>REPASO_AGOSTO.edmx</DependentUpon>
       <LastGenOutput>REPASO_AGOSTO.cs</LastGenOutput>
     </Content>
+    <Content Include="script Base de Datos REPASO_AGOSTO\script agosto.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
