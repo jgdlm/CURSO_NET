@@ -81,3 +81,5 @@ C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\obj\Debug\Ejer
 C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\obj\Debug\Ejercicio_Filtros.csproj.CopyComplete
 C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\obj\Debug\Ejercicio_Filtros.exe
 C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\obj\Debug\Ejercicio_Filtros.pdb
+C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\obj\Debug\Ejercicio_Filtros.csproj.AssemblyReference.cache
+C:\Users\Tarde\Desktop\CURSO_NET\LINQ FILTROS\Ejercicio_Filtros_1\obj\Debug\Ejercicio_Filtros_Content.g.cs

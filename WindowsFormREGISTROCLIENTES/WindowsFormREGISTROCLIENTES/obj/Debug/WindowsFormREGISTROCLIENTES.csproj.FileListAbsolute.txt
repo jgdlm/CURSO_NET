@@ -1,0 +1,14 @@
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormREGISTROCLIENTES\WindowsFormREGISTROCLIENTES\bin\Debug\WindowsFormREGISTROCLIENTES.exe.config
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormREGISTROCLIENTES\WindowsFormREGISTROCLIENTES\bin\Debug\WindowsFormREGISTROCLIENTES.exe
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormREGISTROCLIENTES\WindowsFormREGISTROCLIENTES\bin\Debug\WindowsFormREGISTROCLIENTES.pdb
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormREGISTROCLIENTES\WindowsFormREGISTROCLIENTES\obj\Debug\WindowsFormREGISTROCLIENTES.Form1.resources
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormREGISTROCLIENTES\WindowsFormREGISTROCLIENTES\obj\Debug\WindowsFormREGISTROCLIENTES.Properties.Resources.resources
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormREGISTROCLIENTES\WindowsFormREGISTROCLIENTES\obj\Debug\WindowsFormREGISTROCLIENTES.csproj.GenerateResource.cache
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormREGISTROCLIENTES\WindowsFormREGISTROCLIENTES\obj\Debug\WindowsFormREGISTROCLIENTES.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormREGISTROCLIENTES\WindowsFormREGISTROCLIENTES\obj\Debug\WindowsFormREGISTROCLIENTES.exe
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormREGISTROCLIENTES\WindowsFormREGISTROCLIENTES\obj\Debug\WindowsFormREGISTROCLIENTES.pdb
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormREGISTROCLIENTES\WindowsFormREGISTROCLIENTES\bin\Debug\EntityFramework.dll
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormREGISTROCLIENTES\WindowsFormREGISTROCLIENTES\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormREGISTROCLIENTES\WindowsFormREGISTROCLIENTES\bin\Debug\EntityFramework.xml
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormREGISTROCLIENTES\WindowsFormREGISTROCLIENTES\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormREGISTROCLIENTES\WindowsFormREGISTROCLIENTES\obj\Debug\WindowsFormREGISTROCLIENTES.csproj.CopyComplete

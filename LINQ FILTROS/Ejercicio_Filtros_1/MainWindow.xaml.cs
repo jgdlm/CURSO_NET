@@ -68,7 +68,7 @@ namespace Ejercicio_Filtros
         /// <summary>
         ///METODO CON LINQ PARA FILTAR POR EL APELLIDO
         ///OJO CONTAINS ES LO MISMO QUE LIKE EN SQL
-        ///Filtra en funcion del Apellido y del curso
+        ///Filtra en funcion del Apellido y del Curso
         /// </summary>
         void cargarGridApellido(String cadena)
         {
@@ -199,9 +199,17 @@ namespace Ejercicio_Filtros
 
         private void BtnFiltraFecha_Click(object sender, RoutedEventArgs e)
         {
-            //METODO PARA CARGAR FILTRO POR FECHA DE INSCRIPCION 
+            //Método para cargar filtro por fecha de Inscripcion
             if (CheckBox1.IsChecked == true && CheckBox2.IsChecked == true)
-                cargarFechaInscripcionFechaDesdeFechaHasta
+                cargarFechaInscripcionFechaDesdeFechaHasta(DatePicker1.DisplayDate, DatePicker2.DisplayDate);
+
+            //Método para cargar filtro por fecha de contratación
+            else if (CheckBox4.IsChecked == true && CheckBox5.IsChecked == true)
+                cargarFechaContratacionFechaDesdeFechaHasta(DatePicker3.DisplayDate, DatePicker4.DisplayDate);
+
+            //Método para cargar filtro por todas
+            else if (CheckBox1.IsChecked == true && CheckBox2.IsChecked == true && CheckBox4.IsChecked == true && CheckBox5.IsChecked == true) cargartodasFecha(DatePicker1.DisplayDate, DatePicker2.DisplayDate, DatePicker3.DisplayDate, DatePicker4.DisplayDate);
+
 
         }
     }
