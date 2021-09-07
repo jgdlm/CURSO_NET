@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="EMPLEADOSet" EntityType="Model1.EMPLEADO" />
+    <EntitySet Name="DEPARTAMENTOSet" EntityType="Model1.DEPARTAMENTO" />
+    <AssociationSet Name="DEPARTAMENTOEMPLEADO" Association="Model1.DEPARTAMENTOEMPLEADO">
+      <End Role="DEPARTAMENTO" EntitySet="DEPARTAMENTOSet" />
+      <End Role="EMPLEADO" EntitySet="EMPLEADOSet" />
+    </AssociationSet>
+    <EntitySet Name="PUESTOSet" EntityType="Model1.PUESTO" />
+    <EntitySet Name="NIVEL_RIESGOSet" EntityType="Model1.NIVEL_RIESGO" />
+    <AssociationSet Name="PUESTOEMPLEADO" Association="Model1.PUESTOEMPLEADO">
+      <End Role="PUESTO" EntitySet="PUESTOSet" />
+      <End Role="EMPLEADO" EntitySet="EMPLEADOSet" />
+    </AssociationSet>
+    <AssociationSet Name="NIVEL_RIESGOPUESTO" Association="Model1.NIVEL_RIESGOPUESTO">
+      <End Role="NIVEL_RIESGO" EntitySet="NIVEL_RIESGOSet" />
+      <End Role="PUESTO" EntitySet="PUESTOSet" />
+    </AssociationSet>
+    <EntitySet Name="REGISTRO_TRANSACCIONSet" EntityType="Model1.REGISTRO_TRANSACCION" />
+    <AssociationSet Name="EMPLEADOREGISTRO_TRANSACCION" Association="Model1.EMPLEADOREGISTRO_TRANSACCION">
+      <End Role="EMPLEADO" EntitySet="EMPLEADOSet" />
+      <End Role="REGISTRO_TRANSACCION" EntitySet="REGISTRO_TRANSACCIONSet" />
+    </AssociationSet>
+    <EntitySet Name="TIPO_DE_INGRESOSet" EntityType="Model1.TIPO_DE_INGRESO" />
+    <AssociationSet Name="TIPO_DE_INGRESOREGISTRO_TRANSACCION" Association="Model1.TIPO_DE_INGRESOREGISTRO_TRANSACCION">
+      <End Role="TIPO_DE_INGRESO" EntitySet="TIPO_DE_INGRESOSet" />
+      <End Role="REGISTRO_TRANSACCION" EntitySet="REGISTRO_TRANSACCIONSet" />
+    </AssociationSet>
+    <EntitySet Name="REGISTRO_TRANSACCION_DEDUCCIONSet" EntityType="Model1.REGISTRO_TRANSACCION_DEDUCCION" />
+    <AssociationSet Name="EMPLEADOREGISTRO_TRANSACCION_DEDUCCION" Association="Model1.EMPLEADOREGISTRO_TRANSACCION_DEDUCCION">
+      <End Role="EMPLEADO" EntitySet="EMPLEADOSet" />
+      <End Role="REGISTRO_TRANSACCION_DEDUCCION" EntitySet="REGISTRO_TRANSACCION_DEDUCCIONSet" />
+    </AssociationSet>
+    <EntitySet Name="TIPO_DE_DEDUCCIONSet" EntityType="Model1.TIPO_DE_DEDUCCION" />
+    <AssociationSet Name="TIPO_DE_DEDUCCIONREGISTRO_TRANSACCION_DEDUCCION" Association="Model1.TIPO_DE_DEDUCCIONREGISTRO_TRANSACCION_DEDUCCION">
+      <End Role="TIPO_DE_DEDUCCION" EntitySet="TIPO_DE_DEDUCCIONSet" />
+      <End Role="REGISTRO_TRANSACCION_DEDUCCION" EntitySet="REGISTRO_TRANSACCION_DEDUCCIONSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="EMPLEADO">
+    <Key>
+      <PropertyRef Name="Id_EMPLEADO" />
+    </Key>
+    <Property Name="Id_EMPLEADO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="COD_EMPLEADO" Type="String" Nullable="false" />
+    <Property Name="CELULA_EMPLEADO" Type="String" Nullable="false" />
+    <Property Name="NOMBRE_EMPLEADO" Type="String" Nullable="false" />
+    <Property Name="ID_DEPARTAMENTO" Type="Int32" Nullable="false" />
+    <Property Name="ID_PUESTO" Type="Int32" Nullable="false" />
+    <Property Name="SALARIO_MENSUAL_EMPLEADO" Type="Double" Nullable="false" />
+    <Property Name="RESPONSABLE_AREA" Type="String" Nullable="false" />
+    <NavigationProperty Name="DEPARTAMENTO" Relationship="Model1.DEPARTAMENTOEMPLEADO" FromRole="EMPLEADO" ToRole="DEPARTAMENTO" />
+    <NavigationProperty Name="PUESTO" Relationship="Model1.PUESTOEMPLEADO" FromRole="EMPLEADO" ToRole="PUESTO" />
+    <NavigationProperty Name="REGISTRO_TRANSACCION" Relationship="Model1.EMPLEADOREGISTRO_TRANSACCION" FromRole="EMPLEADO" ToRole="REGISTRO_TRANSACCION" />
+    <NavigationProperty Name="REGISTRO_TRANSACCION_DEDUCCION" Relationship="Model1.EMPLEADOREGISTRO_TRANSACCION_DEDUCCION" FromRole="EMPLEADO" ToRole="REGISTRO_TRANSACCION_DEDUCCION" />
+  </EntityType>
+  <EntityType Name="DEPARTAMENTO">
+    <Key>
+      <PropertyRef Name="ID_DEPARTAMENTO" />
+    </Key>
+    <Property Name="ID_DEPARTAMENTO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMBRE_DEPARTAMENTO" Type="String" Nullable="false" />
+    <Property Name="UBICACION_FISICA_DEPARTAMENTO" Type="String" Nullable="false" />
+    <NavigationProperty Name="EMPLEADO" Relationship="Model1.DEPARTAMENTOEMPLEADO" FromRole="DEPARTAMENTO" ToRole="EMPLEADO" />
+  </EntityType>
+  <Association Name="DEPARTAMENTOEMPLEADO">
+    <End Type="Model1.DEPARTAMENTO" Role="DEPARTAMENTO" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Model1.EMPLEADO" Role="EMPLEADO" Multiplicity="*" />
+  </Association>
+  <EntityType Name="PUESTO">
+    <Key>
+      <PropertyRef Name="ID_PUESTO" />
+    </Key>
+    <Property Name="ID_PUESTO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMBRE_PUESTO" Type="String" Nullable="false" />
+    <Property Name="ID_NIVEL_RIESGO" Type="Int32" Nullable="false" />
+    <Property Name="NIVEL_SALARIO_MIN" Type="Int32" Nullable="false" />
+    <Property Name="NIVEL_SALARIO_MAX" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="EMPLEADO" Relationship="Model1.PUESTOEMPLEADO" FromRole="PUESTO" ToRole="EMPLEADO" />
+    <NavigationProperty Name="NIVEL_RIESGO" Relationship="Model1.NIVEL_RIESGOPUESTO" FromRole="PUESTO" ToRole="NIVEL_RIESGO" />
+  </EntityType>
+  <EntityType Name="NIVEL_RIESGO">
+    <Key>
+      <PropertyRef Name="ID_NIVEL_RIESGO" />
+    </Key>
+    <Property Name="ID_NIVEL_RIESGO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TIPO_RIESGO" Type="String" Nullable="false" />
+    <NavigationProperty Name="PUESTO" Relationship="Model1.NIVEL_RIESGOPUESTO" FromRole="NIVEL_RIESGO" ToRole="PUESTO" />
+  </EntityType>
+  <Association Name="PUESTOEMPLEADO">
+    <End Type="Model1.PUESTO" Role="PUESTO" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Model1.EMPLEADO" Role="EMPLEADO" Multiplicity="*" />
+  </Association>
+  <Association Name="NIVEL_RIESGOPUESTO">
+    <End Type="Model1.NIVEL_RIESGO" Role="NIVEL_RIESGO" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Model1.PUESTO" Role="PUESTO" Multiplicity="*" />
+  </Association>
+  <EntityType Name="REGISTRO_TRANSACCION">
+    <Key>
+      <PropertyRef Name="ID_TRANSACCION_INGRESO" />
+    </Key>
+    <Property Name="ID_TRANSACCION_INGRESO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_EMPLEADO" Type="Int32" Nullable="false" />
+    <Property Name="ID_TIPO_INGRESO" Type="Int32" Nullable="false" />
+    <Property Name="FECHA" Type="DateTime" Nullable="false" />
+    <Property Name="MONTO" Type="Double" Nullable="false" />
+    <NavigationProperty Name="EMPLEADO" Relationship="Model1.EMPLEADOREGISTRO_TRANSACCION" FromRole="REGISTRO_TRANSACCION" ToRole="EMPLEADO" />
+    <NavigationProperty Name="TIPO_DE_INGRESO" Relationship="Model1.TIPO_DE_INGRESOREGISTRO_TRANSACCION" FromRole="REGISTRO_TRANSACCION" ToRole="TIPO_DE_INGRESO" />
+  </EntityType>
+  <Association Name="EMPLEADOREGISTRO_TRANSACCION">
+    <End Type="Model1.EMPLEADO" Role="EMPLEADO" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Model1.REGISTRO_TRANSACCION" Role="REGISTRO_TRANSACCION" Multiplicity="*" />
+  </Association>
+  <EntityType Name="TIPO_DE_INGRESO">
+    <Key>
+      <PropertyRef Name="ID_TIPO_INGRESO" />
+    </Key>
+    <Property Name="ID_TIPO_INGRESO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMBRE_TIPO_INGRESO" Type="String" Nullable="false" />
+    <NavigationProperty Name="REGISTRO_TRANSACCION" Relationship="Model1.TIPO_DE_INGRESOREGISTRO_TRANSACCION" FromRole="TIPO_DE_INGRESO" ToRole="REGISTRO_TRANSACCION" />
+  </EntityType>
+  <Association Name="TIPO_DE_INGRESOREGISTRO_TRANSACCION">
+    <End Type="Model1.TIPO_DE_INGRESO" Role="TIPO_DE_INGRESO" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Model1.REGISTRO_TRANSACCION" Role="REGISTRO_TRANSACCION" Multiplicity="*" />
+  </Association>
+  <EntityType Name="REGISTRO_TRANSACCION_DEDUCCION">
+    <Key>
+      <PropertyRef Name="ID_TRANSACCION_DEDUCCION" />
+    </Key>
+    <Property Name="ID_TRANSACCION_DEDUCCION" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_EMPLEADO" Type="Int32" Nullable="false" />
+    <Property Name="ID_TIPO_DEDUCCION" Type="Int32" Nullable="false" />
+    <Property Name="FECHA" Type="DateTime" Nullable="false" />
+    <Property Name="MONTO" Type="Double" Nullable="false" />
+    <NavigationProperty Name="EMPLEADO" Relationship="Model1.EMPLEADOREGISTRO_TRANSACCION_DEDUCCION" FromRole="REGISTRO_TRANSACCION_DEDUCCION" ToRole="EMPLEADO" />
+    <NavigationProperty Name="TIPO_DE_DEDUCCION" Relationship="Model1.TIPO_DE_DEDUCCIONREGISTRO_TRANSACCION_DEDUCCION" FromRole="REGISTRO_TRANSACCION_DEDUCCION" ToRole="TIPO_DE_DEDUCCION" />
+  </EntityType>
+  <Association Name="EMPLEADOREGISTRO_TRANSACCION_DEDUCCION">
+    <End Type="Model1.EMPLEADO" Role="EMPLEADO" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Model1.REGISTRO_TRANSACCION_DEDUCCION" Role="REGISTRO_TRANSACCION_DEDUCCION" Multiplicity="*" />
+  </Association>
+  <EntityType Name="TIPO_DE_DEDUCCION">
+    <Key>
+      <PropertyRef Name="ID_TIPO_DEDUCCION" />
+    </Key>
+    <Property Name="ID_TIPO_DEDUCCION" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMBRE_TIPO_DEDUCCION" Type="String" Nullable="false" />
+    <NavigationProperty Name="REGISTRO_TRANSACCION_DEDUCCION" Relationship="Model1.TIPO_DE_DEDUCCIONREGISTRO_TRANSACCION_DEDUCCION" FromRole="TIPO_DE_DEDUCCION" ToRole="REGISTRO_TRANSACCION_DEDUCCION" />
+  </EntityType>
+  <Association Name="TIPO_DE_DEDUCCIONREGISTRO_TRANSACCION_DEDUCCION">
+    <End Type="Model1.TIPO_DE_DEDUCCION" Role="TIPO_DE_DEDUCCION" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Model1.REGISTRO_TRANSACCION_DEDUCCION" Role="REGISTRO_TRANSACCION_DEDUCCION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPO_DE_DEDUCCION">
+        <PropertyRef Name="ID_TIPO_DEDUCCION" />
+      </Principal>
+      <Dependent Role="REGISTRO_TRANSACCION_DEDUCCION">
+        <PropertyRef Name="ID_TIPO_DEDUCCION" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,22 @@
+﻿body {
+    font-family:Arial,Arial, Helvetica, sans-serif;
+}
+#altas {
+    color: #00A653;
+    font-size: 22px;
+}
+#consultas {
+    color: darkblue;
+    font-size: 22px;
+}
+#bajas {
+    color: red;
+    font-size: 22px;
+}
+#modificacion {
+    color: orange;
+    font-size: 22px;
+}
+span#Label4,span#Label5{
+    margin-left:5px;
+}

@@ -1,0 +1,67 @@
+﻿body {
+    font-family:Arial, Arial, Helvetica, sans-serif;
+}
+div {
+    margin-left: 200px;
+}
+input#TextBox1 {
+    margin-left: 70px;
+    width: 300px;
+}
+input#TextBox2 {
+    margin-left: 167px;
+    width: 350px;
+}
+input#TextBox3 {
+    margin-left: 99px; 
+}
+input#TextBox4 {
+    margin-left: 75px;
+}
+input#TextBox5 {
+    margin-left: 150px;
+    width: 250px;
+}
+input#TextBox6 {
+    margin-left: 150px;
+    width: 250px;
+}
+select#DropDownList1{
+    margin-left:104px;
+}
+input#TextBox7 {
+    margin-left: 140px;
+}
+input#TextBox8 {
+    margin-left: 105px;
+    width: 80px;
+}
+input#RadioButton1 {
+    margin-left: 167px;
+}
+table#Calendar1 {
+    margin-left: 206px;
+    position: relative;
+    bottom: 35px;
+}
+textarea#TextArea1 {
+    margin-left: 113px;
+    width: 462px;
+    height: 180px;
+}
+span#Label13 {
+    position: relative;
+    bottom: 90px;
+}
+input#CheckBox1 {
+    margin-left: 105px;
+}
+input#Button1 {
+    margin-left: 203px;
+}
+
+span#Label16 {
+    margin-left: 14px;
+}
+
+

@@ -1,0 +1,2 @@
+C:\Users\Tarde\Desktop\CURSO_NET\ConsolaRepasoMañana\ConsolaRepasoMañana\obj\Debug\ConsolaRepasoMañana.csproj.AssemblyReference.cache
+C:\Users\Tarde\Desktop\CURSO_NET\ConsolaRepasoMañana\ConsolaRepasoMañana\obj\Debug\ConsolaRepasoMañana.csproj.CoreCompileInputs.cache

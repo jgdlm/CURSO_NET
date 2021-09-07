@@ -1,0 +1,30 @@
+C:\Users\AsataTarde\Desktop\inesmallada\curso_net\Repaso_Agosto\Repaso_Agosto\bin\Debug\Repaso_Agosto.exe.config
+C:\Users\AsataTarde\Desktop\inesmallada\curso_net\Repaso_Agosto\Repaso_Agosto\bin\Debug\Repaso_Agosto.exe
+C:\Users\AsataTarde\Desktop\inesmallada\curso_net\Repaso_Agosto\Repaso_Agosto\bin\Debug\Repaso_Agosto.pdb
+C:\Users\AsataTarde\Desktop\inesmallada\curso_net\Repaso_Agosto\Repaso_Agosto\bin\Debug\EntityFramework.dll
+C:\Users\AsataTarde\Desktop\inesmallada\curso_net\Repaso_Agosto\Repaso_Agosto\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AsataTarde\Desktop\inesmallada\curso_net\Repaso_Agosto\Repaso_Agosto\bin\Debug\EntityFramework.xml
+C:\Users\AsataTarde\Desktop\inesmallada\curso_net\Repaso_Agosto\Repaso_Agosto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AsataTarde\Desktop\inesmallada\curso_net\Repaso_Agosto\Repaso_Agosto\obj\Debug\Repaso_Agosto.csproj.AssemblyReference.cache
+C:\Users\AsataTarde\Desktop\inesmallada\curso_net\Repaso_Agosto\Repaso_Agosto\obj\Debug\Repaso_Agosto.Form1.resources
+C:\Users\AsataTarde\Desktop\inesmallada\curso_net\Repaso_Agosto\Repaso_Agosto\obj\Debug\Repaso_Agosto.Properties.Resources.resources
+C:\Users\AsataTarde\Desktop\inesmallada\curso_net\Repaso_Agosto\Repaso_Agosto\obj\Debug\Repaso_Agosto.csproj.GenerateResource.cache
+C:\Users\AsataTarde\Desktop\inesmallada\curso_net\Repaso_Agosto\Repaso_Agosto\obj\Debug\Repaso_Agosto.csproj.CoreCompileInputs.cache
+C:\Users\AsataTarde\Desktop\inesmallada\curso_net\Repaso_Agosto\Repaso_Agosto\obj\Debug\Repaso_Agosto.csproj.CopyComplete
+C:\Users\AsataTarde\Desktop\inesmallada\curso_net\Repaso_Agosto\Repaso_Agosto\obj\Debug\Repaso_Agosto.exe
+C:\Users\AsataTarde\Desktop\inesmallada\curso_net\Repaso_Agosto\Repaso_Agosto\obj\Debug\Repaso_Agosto.pdb
+C:\Users\AstataTarde\Desktop\ORO EN PAÑO 2\Repaso_Agosto\bin\Debug\Repaso_Agosto.exe.config
+C:\Users\AstataTarde\Desktop\ORO EN PAÑO 2\Repaso_Agosto\bin\Debug\Repaso_Agosto.exe
+C:\Users\AstataTarde\Desktop\ORO EN PAÑO 2\Repaso_Agosto\bin\Debug\Repaso_Agosto.pdb
+C:\Users\AstataTarde\Desktop\ORO EN PAÑO 2\Repaso_Agosto\bin\Debug\EntityFramework.dll
+C:\Users\AstataTarde\Desktop\ORO EN PAÑO 2\Repaso_Agosto\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AstataTarde\Desktop\ORO EN PAÑO 2\Repaso_Agosto\bin\Debug\EntityFramework.xml
+C:\Users\AstataTarde\Desktop\ORO EN PAÑO 2\Repaso_Agosto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AstataTarde\Desktop\ORO EN PAÑO 2\Repaso_Agosto\obj\Debug\Repaso_Agosto.Form1.resources
+C:\Users\AstataTarde\Desktop\ORO EN PAÑO 2\Repaso_Agosto\obj\Debug\Repaso_Agosto.Properties.Resources.resources
+C:\Users\AstataTarde\Desktop\ORO EN PAÑO 2\Repaso_Agosto\obj\Debug\Repaso_Agosto.csproj.GenerateResource.cache
+C:\Users\AstataTarde\Desktop\ORO EN PAÑO 2\Repaso_Agosto\obj\Debug\Repaso_Agosto.csproj.CoreCompileInputs.cache
+C:\Users\AstataTarde\Desktop\ORO EN PAÑO 2\Repaso_Agosto\obj\Debug\Repaso_Agosto.csproj.CopyComplete
+C:\Users\AstataTarde\Desktop\ORO EN PAÑO 2\Repaso_Agosto\obj\Debug\Repaso_Agosto.exe
+C:\Users\AstataTarde\Desktop\ORO EN PAÑO 2\Repaso_Agosto\obj\Debug\Repaso_Agosto.pdb
+C:\Users\AstataTarde\Desktop\ORO EN PAÑO 2\Repaso_Agosto\obj\Debug\Repaso_Agosto.csproj.AssemblyReference.cache

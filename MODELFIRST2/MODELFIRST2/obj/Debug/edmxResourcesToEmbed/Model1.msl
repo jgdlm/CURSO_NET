@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="Model1Container">
+    <EntitySetMapping Name="REGISTRO_TRANSACCION_DEDUCCIONSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.REGISTRO_TRANSACCION_DEDUCCION)">
+        <MappingFragment StoreEntitySet="REGISTRO_TRANSACCION_DEDUCCIONSet">
+          <ScalarProperty Name="ID_TRANSACCION_DEDUCCION" ColumnName="ID_TRANSACCION_DEDUCCION" />
+          <ScalarProperty Name="ID_EMPLEADO" ColumnName="ID_EMPLEADO" />
+          <ScalarProperty Name="ID_TIPO_DEDUCCION" ColumnName="ID_TIPO_DEDUCCION" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="MONTO" ColumnName="MONTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIPO_DE_DEDUCCIONSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.TIPO_DE_DEDUCCION)">
+        <MappingFragment StoreEntitySet="TIPO_DE_DEDUCCIONSet">
+          <ScalarProperty Name="ID_TIPO_DEDUCCION" ColumnName="ID_TIPO_DEDUCCION" />
+          <ScalarProperty Name="NOMBRE_TIPO_DEDUCCION" ColumnName="NOMBRE_TIPO_DEDUCCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIPO_DE_INGRESOSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.TIPO_DE_INGRESO)">
+        <MappingFragment StoreEntitySet="TIPO_DE_INGRESOSet">
+          <ScalarProperty Name="ID_TIPO_INGRESO" ColumnName="ID_TIPO_INGRESO" />
+          <ScalarProperty Name="NOMBRE_TIPO_INGRESO" ColumnName="NOMBRE_TIPO_INGRESO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REGISTRO_TRANSACCIONSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.REGISTRO_TRANSACCION)">
+        <MappingFragment StoreEntitySet="REGISTRO_TRANSACCIONSet">
+          <ScalarProperty Name="ID_TRANSACCION_INGRESO" ColumnName="ID_TRANSACCION_INGRESO" />
+          <ScalarProperty Name="ID_EMPLEADO" ColumnName="ID_EMPLEADO" />
+          <ScalarProperty Name="ID_TIPO_INGRESO" ColumnName="ID_TIPO_INGRESO" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="MONTO" ColumnName="MONTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DEPARTAMENTOSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.DEPARTAMENTO)">
+        <MappingFragment StoreEntitySet="DEPARTAMENTOSet">
+          <ScalarProperty Name="ID_DEPARTAMENTO" ColumnName="ID_DEPARTAMENTO" />
+          <ScalarProperty Name="NOMBRE_DEPARTAMENTO" ColumnName="NOMBRE_DEPARTAMENTO" />
+          <ScalarProperty Name="UBICACION_FISCA_DEPARTA" ColumnName="UBICACION_FISCA_DEPARTA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NIVEL_RIESGOSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.NIVEL_RIESGO)">
+        <MappingFragment StoreEntitySet="NIVEL_RIESGOSet">
+          <ScalarProperty Name="ID_NIVEL_RIESGO" ColumnName="ID_NIVEL_RIESGO" />
+          <ScalarProperty Name="TIPO_RIESGO" ColumnName="TIPO_RIESGO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PUESTOSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.PUESTO)">
+        <MappingFragment StoreEntitySet="PUESTOSet">
+          <ScalarProperty Name="ID_PUESTO" ColumnName="ID_PUESTO" />
+          <ScalarProperty Name="NOMBRE_PUESTO" ColumnName="NOMBRE_PUESTO" />
+          <ScalarProperty Name="ID_NIVEL_RIESGO" ColumnName="ID_NIVEL_RIESGO" />
+          <ScalarProperty Name="NIVEL_SALARIO_MIN" ColumnName="NIVEL_SALARIO_MIN" />
+          <ScalarProperty Name="NIVEL_SALARIO_MAX" ColumnName="NIVEL_SALARIO_MAX" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EMPLEADOSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.EMPLEADO)">
+        <MappingFragment StoreEntitySet="EMPLEADOSet">
+          <ScalarProperty Name="ID_EMPLEADO" ColumnName="ID_EMPLEADO" />
+          <ScalarProperty Name="COD_EMPLEADO" ColumnName="COD_EMPLEADO" />
+          <ScalarProperty Name="CEDULA_EMPLEADO" ColumnName="CEDULA_EMPLEADO" />
+          <ScalarProperty Name="NOMBRE_EMPLEADO" ColumnName="NOMBRE_EMPLEADO" />
+          <ScalarProperty Name="ID_DEPATAMENTO" ColumnName="ID_DEPATAMENTO" />
+          <ScalarProperty Name="ID_PUESTO" ColumnName="ID_PUESTO" />
+          <ScalarProperty Name="SALARIO_MENSUAL_EMPLEADO" ColumnName="SALARIO_MENSUAL_EMPLEADO" />
+          <ScalarProperty Name="RESPONSABLE_AREA" ColumnName="RESPONSABLE_AREA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

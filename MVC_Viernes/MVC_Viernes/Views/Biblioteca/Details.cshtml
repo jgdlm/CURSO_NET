@@ -1,0 +1,42 @@
+﻿@model MVC_Viernes.Models.Libro
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Libro</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ISBN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ISBN)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Titulo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Titulo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoLibro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TipoLibro)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ISBN }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

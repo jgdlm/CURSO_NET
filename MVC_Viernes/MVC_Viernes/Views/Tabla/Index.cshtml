@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div>
+    <table border="1">
+        @for (int fila = 1; fila <= 12; fila++)
+        {
+            <tr>
+                @for(int columna = 1; columna <= 10; columna++)
+                {
+                    <td>@fila*@columna=@(fila*columna)</td>
+                }
+            </tr>
+        }
+    </table>
+</div>

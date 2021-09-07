@@ -12,3 +12,4 @@ C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormREGISTROCLIENTES\WindowsFormREGISTRO
 C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormREGISTROCLIENTES\WindowsFormREGISTROCLIENTES\bin\Debug\EntityFramework.xml
 C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormREGISTROCLIENTES\WindowsFormREGISTROCLIENTES\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormREGISTROCLIENTES\WindowsFormREGISTROCLIENTES\obj\Debug\WindowsFormREGISTROCLIENTES.csproj.CopyComplete
+C:\Users\Tarde\Desktop\CURSO_NET\WindowsFormREGISTROCLIENTES\WindowsFormREGISTROCLIENTES\obj\Debug\WindowsFormREGISTROCLIENTES.csproj.AssemblyReference.cache

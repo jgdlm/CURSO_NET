@@ -1,0 +1,14 @@
+C:\Users\Tarde\Desktop\CURSONETGIT\msrimbqm\curso_net\repasoconsolaexamen\repasobjetos0821\repasobjetos0821\obj\Debug\repasobjetos0821.csproj.AssemblyReference.cache
+C:\Users\Tarde\Desktop\CURSONETGIT\msrimbqm\curso_net\repasoconsolaexamen\repasobjetos0821\repasobjetos0821\obj\Debug\repasobjetos0821.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Desktop\CURSONETGIT\msrimbqm\curso_net\repasoconsolaexamen\repasobjetos0821\repasobjetos0821\bin\Debug\repasobjetos0821.exe.config
+C:\Users\Tarde\Desktop\CURSONETGIT\msrimbqm\curso_net\repasoconsolaexamen\repasobjetos0821\repasobjetos0821\bin\Debug\repasobjetos0821.exe
+C:\Users\Tarde\Desktop\CURSONETGIT\msrimbqm\curso_net\repasoconsolaexamen\repasobjetos0821\repasobjetos0821\bin\Debug\repasobjetos0821.pdb
+C:\Users\Tarde\Desktop\CURSONETGIT\msrimbqm\curso_net\repasoconsolaexamen\repasobjetos0821\repasobjetos0821\obj\Debug\repasobjetos0821.exe
+C:\Users\Tarde\Desktop\CURSONETGIT\msrimbqm\curso_net\repasoconsolaexamen\repasobjetos0821\repasobjetos0821\obj\Debug\repasobjetos0821.pdb
+C:\Users\AstataTarde\Desktop\repasoconsolaexamen\repasobjetos0821\repasobjetos0821\bin\Debug\repasobjetos0821.exe.config
+C:\Users\AstataTarde\Desktop\repasoconsolaexamen\repasobjetos0821\repasobjetos0821\bin\Debug\repasobjetos0821.exe
+C:\Users\AstataTarde\Desktop\repasoconsolaexamen\repasobjetos0821\repasobjetos0821\bin\Debug\repasobjetos0821.pdb
+C:\Users\AstataTarde\Desktop\repasoconsolaexamen\repasobjetos0821\repasobjetos0821\obj\Debug\repasobjetos0821.csproj.AssemblyReference.cache
+C:\Users\AstataTarde\Desktop\repasoconsolaexamen\repasobjetos0821\repasobjetos0821\obj\Debug\repasobjetos0821.csproj.CoreCompileInputs.cache
+C:\Users\AstataTarde\Desktop\repasoconsolaexamen\repasobjetos0821\repasobjetos0821\obj\Debug\repasobjetos0821.exe
+C:\Users\AstataTarde\Desktop\repasoconsolaexamen\repasobjetos0821\repasobjetos0821\obj\Debug\repasobjetos0821.pdb

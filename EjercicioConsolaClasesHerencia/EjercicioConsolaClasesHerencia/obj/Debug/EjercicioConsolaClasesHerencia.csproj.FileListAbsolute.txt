@@ -1,0 +1,7 @@
+C:\Users\Tarde\Desktop\CURSO_NET\EjercicioConsolaClasesHerencia\EjercicioConsolaClasesHerencia\bin\Debug\EjercicioConsolaClasesHerencia.exe.config
+C:\Users\Tarde\Desktop\CURSO_NET\EjercicioConsolaClasesHerencia\EjercicioConsolaClasesHerencia\bin\Debug\EjercicioConsolaClasesHerencia.exe
+C:\Users\Tarde\Desktop\CURSO_NET\EjercicioConsolaClasesHerencia\EjercicioConsolaClasesHerencia\bin\Debug\EjercicioConsolaClasesHerencia.pdb
+C:\Users\Tarde\Desktop\CURSO_NET\EjercicioConsolaClasesHerencia\EjercicioConsolaClasesHerencia\obj\Debug\EjercicioConsolaClasesHerencia.csproj.AssemblyReference.cache
+C:\Users\Tarde\Desktop\CURSO_NET\EjercicioConsolaClasesHerencia\EjercicioConsolaClasesHerencia\obj\Debug\EjercicioConsolaClasesHerencia.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Desktop\CURSO_NET\EjercicioConsolaClasesHerencia\EjercicioConsolaClasesHerencia\obj\Debug\EjercicioConsolaClasesHerencia.exe
+C:\Users\Tarde\Desktop\CURSO_NET\EjercicioConsolaClasesHerencia\EjercicioConsolaClasesHerencia\obj\Debug\EjercicioConsolaClasesHerencia.pdb

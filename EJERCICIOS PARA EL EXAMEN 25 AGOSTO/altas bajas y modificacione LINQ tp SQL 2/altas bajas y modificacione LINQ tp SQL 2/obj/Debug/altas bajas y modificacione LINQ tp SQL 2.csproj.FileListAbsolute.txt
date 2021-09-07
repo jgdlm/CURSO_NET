@@ -1,0 +1,17 @@
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\altas bajas y modificacione LINQ tp SQL 2\altas bajas y modificacione LINQ tp SQL 2\bin\Debug\altas bajas y modificacione LINQ tp SQL 2.exe.config
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\altas bajas y modificacione LINQ tp SQL 2\altas bajas y modificacione LINQ tp SQL 2\bin\Debug\altas bajas y modificacione LINQ tp SQL 2.exe
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\altas bajas y modificacione LINQ tp SQL 2\altas bajas y modificacione LINQ tp SQL 2\bin\Debug\altas bajas y modificacione LINQ tp SQL 2.pdb
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\altas bajas y modificacione LINQ tp SQL 2\altas bajas y modificacione LINQ tp SQL 2\obj\Debug\altas bajas y modificacione LINQ tp SQL 2.csproj.AssemblyReference.cache
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\altas bajas y modificacione LINQ tp SQL 2\altas bajas y modificacione LINQ tp SQL 2\obj\Debug\altas_bajas_y_modificacione_LINQ_tp_SQL_2.Form1.resources
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\altas bajas y modificacione LINQ tp SQL 2\altas bajas y modificacione LINQ tp SQL 2\obj\Debug\altas_bajas_y_modificacione_LINQ_tp_SQL_2.Properties.Resources.resources
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\altas bajas y modificacione LINQ tp SQL 2\altas bajas y modificacione LINQ tp SQL 2\obj\Debug\altas bajas y modificacione LINQ tp SQL 2.csproj.GenerateResource.cache
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\altas bajas y modificacione LINQ tp SQL 2\altas bajas y modificacione LINQ tp SQL 2\obj\Debug\altas bajas y modificacione LINQ tp SQL 2.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\altas bajas y modificacione LINQ tp SQL 2\altas bajas y modificacione LINQ tp SQL 2\obj\Debug\altas bajas y modificacione LINQ tp SQL 2.exe
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\altas bajas y modificacione LINQ tp SQL 2\altas bajas y modificacione LINQ tp SQL 2\obj\Debug\altas bajas y modificacione LINQ tp SQL 2.pdb
+Z:\altas bajas y modificacione LINQ tp SQL 2\altas bajas y modificacione LINQ tp SQL 2\obj\Debug\altas bajas y modificacione LINQ tp SQL 2.csproj.AssemblyReference.cache
+Z:\altas bajas y modificacione LINQ tp SQL 2\altas bajas y modificacione LINQ tp SQL 2\obj\Debug\altas_bajas_y_modificacione_LINQ_tp_SQL_2.Form1.resources
+Z:\altas bajas y modificacione LINQ tp SQL 2\altas bajas y modificacione LINQ tp SQL 2\obj\Debug\altas_bajas_y_modificacione_LINQ_tp_SQL_2.Properties.Resources.resources
+Z:\altas bajas y modificacione LINQ tp SQL 2\altas bajas y modificacione LINQ tp SQL 2\obj\Debug\altas bajas y modificacione LINQ tp SQL 2.csproj.GenerateResource.cache
+Z:\altas bajas y modificacione LINQ tp SQL 2\altas bajas y modificacione LINQ tp SQL 2\obj\Debug\altas bajas y modificacione LINQ tp SQL 2.csproj.CoreCompileInputs.cache
+Z:\altas bajas y modificacione LINQ tp SQL 2\altas bajas y modificacione LINQ tp SQL 2\obj\Debug\altas bajas y modificacione LINQ tp SQL 2.exe
+Z:\altas bajas y modificacione LINQ tp SQL 2\altas bajas y modificacione LINQ tp SQL 2\obj\Debug\altas bajas y modificacione LINQ tp SQL 2.pdb

@@ -1,0 +1,16 @@
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\InyeccionSQL\InyeccionSQL\bin\Debug\InyeccionSQL.exe.config
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\InyeccionSQL\InyeccionSQL\bin\Debug\InyeccionSQL.exe
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\InyeccionSQL\InyeccionSQL\bin\Debug\InyeccionSQL.pdb
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\InyeccionSQL\InyeccionSQL\obj\Debug\InyeccionSQL.csproj.AssemblyReference.cache
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\InyeccionSQL\InyeccionSQL\obj\Debug\MainWindow.g.cs
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\InyeccionSQL\InyeccionSQL\obj\Debug\App.g.cs
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\InyeccionSQL\InyeccionSQL\obj\Debug\InyeccionSQL_MarkupCompile.cache
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\InyeccionSQL\InyeccionSQL\obj\Debug\InyeccionSQL_MarkupCompile.lref
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\InyeccionSQL\InyeccionSQL\obj\Debug\MainWindow.baml
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\InyeccionSQL\InyeccionSQL\obj\Debug\InyeccionSQL.g.resources
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\InyeccionSQL\InyeccionSQL\obj\Debug\InyeccionSQL.Properties.Resources.resources
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\InyeccionSQL\InyeccionSQL\obj\Debug\InyeccionSQL.csproj.GenerateResource.cache
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\InyeccionSQL\InyeccionSQL\obj\Debug\InyeccionSQL.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\InyeccionSQL\InyeccionSQL\obj\Debug\InyeccionSQL.exe
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\InyeccionSQL\InyeccionSQL\obj\Debug\InyeccionSQL.pdb
+C:\Users\Tarde\source\repos\juanmagv\CURSO_NET\InyeccionSQL\InyeccionSQL\obj\Debug\InyeccionSQL_Content.g.cs

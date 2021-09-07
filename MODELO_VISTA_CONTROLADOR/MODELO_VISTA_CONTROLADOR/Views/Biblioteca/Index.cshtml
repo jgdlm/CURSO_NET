@@ -1,0 +1,32 @@
+﻿@model IEnumerable<MODELO_VISTA_CONTROLADOR.Models.Libro>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>Isbn</th>
+        <th>Titulo</th>
+        <th>Tipo de Libro</th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>@item.Isbn</td>
+    <td>@item.Titulo</td>
+    <td>@item.TipoLibro</td>
+    <td>
+    @Html.ActionLink("Edit", "Edit", new { id=item.Isbn }) |
+    @Html.ActionLink("Details", "Details", new { id=item.Isbn }) |
+    @Html.ActionLink("Delete", "Delete", new { id = item.Isbn })
+    </td>
+</tr>
+}
+
+</table>
